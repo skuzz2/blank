@@ -1,0 +1,28 @@
+{
+  "name": "blank",
+  "version": "1.0.0",
+  "description": "Interactive Web final for blank team",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skuzz2/blank.git"
+  },
+  "author": "Team Blank",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skuzz2/blank/issues"
+  },
+  "homepage": "https://github.com/skuzz2/blank#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "express-sessions": "^1.0.6",
+    "mongoose": "^4.10.2",
+    "pug": "^2.0.0-rc.1"
+  }
+}
