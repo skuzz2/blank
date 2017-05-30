@@ -14,3 +14,7 @@ app.use(express.static(path.join(__dirname + '/public')));
 var urlencodedParser = bodyParser.urlencoded({
     extended: true
 });
+
+app.get('/', function(res, req){
+  res.render('index');
+});
