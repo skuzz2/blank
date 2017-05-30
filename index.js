@@ -15,6 +15,9 @@ var urlencodedParser = bodyParser.urlencoded({
     extended: true
 });
 
-app.get('/', function(res, req){
-  res.render('index');
+app.get('/', function(req, res){
+  res.render("index");
 });
+
+
+app.listen(3000);
