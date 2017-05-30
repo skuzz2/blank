@@ -2,563 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c090a988-a069-4ff6-96f3-9c5066027676" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/README.md" afterPath="$PROJECT_DIR$/node_modules/pug/test/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/attrs.unescaped.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/attrs.unescaped.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/case-when.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/case-when.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/case-without-with.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/case-without-with.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/else-condition.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/else-condition.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/else-without-if.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/else-without-if.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/key-char-ending-badly.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/key-char-ending-badly.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/key-ending-badly.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/key-ending-badly.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/mismatched-inline-tag.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/mismatched-inline-tag.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/mixin-args-syntax-error.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/mixin-args-syntax-error.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/mixins-blocks-with-bodies.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/mixins-blocks-with-bodies.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/non-existant-filter.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/non-existant-filter.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/non-mixin-block.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/non-mixin-block.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/self-closing-tag-with-block.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/self-closing-tag-with-block.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/self-closing-tag-with-code.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/self-closing-tag-with-code.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/tabs-and-spaces.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/tabs-and-spaces.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/unclosed-interpolated-tag.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/anti-cases/unclosed-interpolated-tag.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/browser/index.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/browser/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/browser/index.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/browser/index.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases-es2015/attr.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases-es2015/attr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases-es2015/attr.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases-es2015/attr.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/attrs-data.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/attrs-data.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/attrs-data.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/attrs-data.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/attrs.colon.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/attrs.colon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/attrs.colon.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/attrs.colon.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/attrs.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/attrs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/attrs.js.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/attrs.js.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/attrs.js.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/attrs.js.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/attrs.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/attrs.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/attrs.unescaped.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/attrs.unescaped.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/attrs.unescaped.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/attrs.unescaped.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/1794-include.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/1794-include.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/blocks-in-blocks-layout.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/blocks-in-blocks-layout.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/dialog.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/dialog.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/empty-block.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/empty-block.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/escapes.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/escapes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/extends-empty-block-1.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/extends-empty-block-1.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/extends-empty-block-2.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/extends-empty-block-2.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/extends-from-root.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/extends-from-root.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/extends-relative.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/extends-relative.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/filter-in-include.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/filter-in-include.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/includable.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/includable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/inheritance.extend.mixin.block.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/inheritance.extend.mixin.block.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/inheritance.extend.recursive-grand-grandparent.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/inheritance.extend.recursive-grand-grandparent.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/inheritance.extend.recursive-grandparent.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/inheritance.extend.recursive-grandparent.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/inheritance.extend.recursive-parent.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/inheritance.extend.recursive-parent.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/layout.include.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/layout.include.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/layout.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/layout.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/mixin-at-end-of-file.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/mixin-at-end-of-file.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/mixins.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/mixins.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/pet.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/pet.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/window.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/window.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/yield-nested.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/auxiliary/yield-nested.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/basic.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/basic.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/basic.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/basic.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/blanks.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/blanks.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/blanks.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/blanks.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/block-code.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/block-code.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/block-code.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/block-code.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/block-expansion.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/block-expansion.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/block-expansion.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/block-expansion.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/block-expansion.shorthands.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/block-expansion.shorthands.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/block-expansion.shorthands.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/block-expansion.shorthands.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/blockquote.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/blockquote.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/blockquote.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/blockquote.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/blocks-in-blocks.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/blocks-in-blocks.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/blocks-in-blocks.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/blocks-in-blocks.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/blocks-in-if.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/blocks-in-if.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/blocks-in-if.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/blocks-in-if.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/case-blocks.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/case-blocks.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/case-blocks.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/case-blocks.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/case.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/case.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/case.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/case.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/classes-empty.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/classes-empty.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/classes.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/classes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/classes.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/classes.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/code.conditionals.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/code.conditionals.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/code.conditionals.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/code.conditionals.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/code.escape.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/code.escape.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/code.escape.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/code.escape.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/code.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/code.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/code.iteration.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/code.iteration.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/code.iteration.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/code.iteration.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/code.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/code.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/comments-in-case.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/comments-in-case.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/comments-in-case.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/comments-in-case.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/comments.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/comments.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/comments.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/comments.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/comments.source.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/comments.source.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/doctype.default.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/doctype.default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/doctype.default.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/doctype.default.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/each.else.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/each.else.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/each.else.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/each.else.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/escape-chars.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/escape-chars.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/escape-test.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/escape-test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/escape-test.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/escape-test.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/escaping-class-attribute.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/escaping-class-attribute.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/escaping-class-attribute.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/escaping-class-attribute.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/filter-in-include.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/filter-in-include.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/filter-in-include.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/filter-in-include.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/filters-empty.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/filters-empty.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/filters-empty.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/filters-empty.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.coffeescript.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.coffeescript.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.coffeescript.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.coffeescript.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.custom.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.custom.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.custom.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.custom.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.include.custom.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.include.custom.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.include.custom.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.include.custom.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.include.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.include.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.include.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.include.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.inline.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.inline.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.less.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.less.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.less.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.less.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.markdown.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.markdown.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.markdown.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.markdown.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.nested.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.nested.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.nested.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.nested.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.stylus.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.stylus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.stylus.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.stylus.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/html.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/html.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/html.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/html.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/html5.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/html5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/html5.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/html5.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/include-extends-from-root.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/include-extends-from-root.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/include-extends-from-root.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/include-extends-from-root.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/include-extends-of-common-template.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/include-extends-of-common-template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/include-extends-of-common-template.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/include-extends-of-common-template.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/include-extends-relative.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/include-extends-relative.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/include-extends-relative.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/include-extends-relative.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/include-filter-coffee.coffee" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/include-filter-coffee.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/include-only-text-body.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/include-only-text-body.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/include-only-text.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/include-only-text.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/include-only-text.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/include-only-text.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/include-with-text-head.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/include-with-text-head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/include-with-text-head.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/include-with-text-head.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/include-with-text.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/include-with-text.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/include-with-text.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/include-with-text.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/include.script.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/include.script.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/include.script.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/include.script.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/include.yield.nested.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/include.yield.nested.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/include.yield.nested.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/include.yield.nested.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/includes-with-ext-js.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/includes-with-ext-js.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/includes-with-ext-js.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/includes-with-ext-js.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/includes.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/includes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/includes.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/includes.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.alert-dialog.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.alert-dialog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.alert-dialog.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.alert-dialog.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.defaults.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.defaults.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.defaults.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.defaults.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.extend.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.extend.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.extend.include.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.extend.include.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.extend.include.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.extend.include.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.extend.mixins.block.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.extend.mixins.block.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.extend.mixins.block.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.extend.mixins.block.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.extend.mixins.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.extend.mixins.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.extend.mixins.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.extend.mixins.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.extend.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.extend.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.extend.recursive.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.extend.recursive.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.extend.recursive.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.extend.recursive.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.extend.whitespace.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.extend.whitespace.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.extend.whitespace.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.extend.whitespace.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/inheritance.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/inline-tag.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/inline-tag.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/inline-tag.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/inline-tag.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/intepolated-elements.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/intepolated-elements.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/intepolated-elements.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/intepolated-elements.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/interpolated-mixin.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/interpolated-mixin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/interpolated-mixin.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/interpolated-mixin.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/interpolation.escape.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/interpolation.escape.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/interpolation.escape.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/interpolation.escape.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/javascript-new-lines.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/javascript-new-lines.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/layout.append.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/layout.append.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/layout.append.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/layout.append.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/layout.append.without-block.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/layout.append.without-block.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/layout.append.without-block.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/layout.append.without-block.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/layout.multi.append.prepend.block.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/layout.multi.append.prepend.block.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/layout.multi.append.prepend.block.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/layout.multi.append.prepend.block.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/layout.prepend.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/layout.prepend.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/layout.prepend.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/layout.prepend.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/layout.prepend.without-block.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/layout.prepend.without-block.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/layout.prepend.without-block.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/layout.prepend.without-block.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin-at-end-of-file.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin-at-end-of-file.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin-at-end-of-file.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin-at-end-of-file.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin-block-with-space.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin-block-with-space.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin-block-with-space.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin-block-with-space.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin-hoist.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin-hoist.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin-hoist.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin-hoist.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin-via-include.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin-via-include.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin.attrs.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin.attrs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin.attrs.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin.attrs.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin.block-tag-behaviour.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin.block-tag-behaviour.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin.block-tag-behaviour.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin.block-tag-behaviour.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin.blocks.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin.blocks.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin.blocks.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin.blocks.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin.merge.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin.merge.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin.merge.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/mixin.merge.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/mixins-unused.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/mixins-unused.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/mixins.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/mixins.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/mixins.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/mixins.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/mixins.rest-args.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/mixins.rest-args.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/mixins.rest-args.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/mixins.rest-args.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/namespaces.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/namespaces.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/namespaces.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/namespaces.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/nesting.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/nesting.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/nesting.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/nesting.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/pipeless-comments.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/pipeless-comments.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/pipeless-comments.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/pipeless-comments.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/pipeless-filters.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/pipeless-filters.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/pipeless-filters.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/pipeless-filters.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/pipeless-tag.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/pipeless-tag.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/pipeless-tag.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/pipeless-tag.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/pre.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/pre.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/pre.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/pre.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/quotes.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/quotes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/quotes.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/quotes.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/regression.1794.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/regression.1794.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/regression.784.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/regression.784.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/script.whitespace.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/script.whitespace.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/script.whitespace.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/script.whitespace.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/scripts.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/scripts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/scripts.non-js.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/scripts.non-js.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/scripts.non-js.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/scripts.non-js.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/scripts.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/scripts.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/self-closing-html.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/self-closing-html.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/self-closing-html.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/self-closing-html.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/some-included.styl" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/some-included.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/some.md" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/some.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/some.styl" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/some.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/source.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/source.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/source.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/source.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/styles.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/styles.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/styles.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/styles.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/tag.interpolation.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/tag.interpolation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/tag.interpolation.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/tag.interpolation.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/tags.self-closing.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/tags.self-closing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/tags.self-closing.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/tags.self-closing.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/template.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/template.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/template.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/text-block.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/text-block.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/text-block.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/text-block.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/text.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/text.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/text.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/text.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/utf8bom.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/utf8bom.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/utf8bom.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/utf8bom.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/vars.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/vars.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/while.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/while.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/while.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/while.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/xml.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/xml.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/xml.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/xml.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/yield-before-conditional-head.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/yield-before-conditional-head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/yield-before-conditional-head.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/yield-before-conditional-head.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/yield-before-conditional.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/yield-before-conditional.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/yield-before-conditional.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/yield-before-conditional.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/yield-head.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/yield-head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/yield-head.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/yield-head.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/yield-title-head.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/yield-title-head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/yield-title-head.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/yield-title-head.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/yield-title.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/yield-title.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/yield-title.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/yield-title.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/yield.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/yield.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/yield.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/yield.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/dependencies/dependency1.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/dependencies/dependency1.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/dependencies/dependency2.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/dependencies/dependency2.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/dependencies/dependency3.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/dependencies/dependency3.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/dependencies/extends1.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/dependencies/extends1.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/dependencies/extends2.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/dependencies/extends2.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/dependencies/include1.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/dependencies/include1.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/dependencies/include2.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/dependencies/include2.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/duplicate-block/__snapshots__/index.test.js.snap" afterPath="$PROJECT_DIR$/node_modules/pug/test/duplicate-block/__snapshots__/index.test.js.snap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/duplicate-block/index.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/duplicate-block/index.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/duplicate-block/index.test.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/duplicate-block/index.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/duplicate-block/layout-with-duplicate-block.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/duplicate-block/layout-with-duplicate-block.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/error.reporting.test.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/error.reporting.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/examples.test.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/examples.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/extends-not-top-level/default.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/extends-not-top-level/default.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/extends-not-top-level/duplicate.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/extends-not-top-level/duplicate.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/extends-not-top-level/index.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/extends-not-top-level/index.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/extends-not-top-level/index.test.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/extends-not-top-level/index.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/append-without-block/app-layout.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/append-without-block/app-layout.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/append-without-block/layout.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/append-without-block/layout.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/append-without-block/page.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/append-without-block/page.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/append/app-layout.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/append/app-layout.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/append/layout.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/append/layout.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/append/page.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/append/page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/append/page.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/append/page.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/include.locals.error.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/include.locals.error.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/include.syntax.error.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/include.syntax.error.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/invalid-block-in-extends.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/invalid-block-in-extends.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/issue-1593/include-layout.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/issue-1593/include-layout.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/issue-1593/include.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/issue-1593/include.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/issue-1593/index.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/issue-1593/index.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/issue-1593/layout.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/issue-1593/layout.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/layout.locals.error.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/layout.locals.error.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/layout.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/layout.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/layout.syntax.error.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/layout.syntax.error.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/layout.with.runtime.error.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/layout.with.runtime.error.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/mixin-include.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/mixin-include.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/mixin.error.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/mixin.error.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/multi-append-prepend-block/redefine.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/multi-append-prepend-block/redefine.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/multi-append-prepend-block/root.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/multi-append-prepend-block/root.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/perf.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/perf.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/prepend-without-block/app-layout.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/prepend-without-block/app-layout.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/prepend-without-block/layout.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/prepend-without-block/layout.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/prepend-without-block/page.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/prepend-without-block/page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/prepend-without-block/page.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/prepend-without-block/page.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/prepend/app-layout.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/prepend/app-layout.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/prepend/layout.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/prepend/layout.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/prepend/page.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/prepend/page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/prepend/page.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/prepend/page.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/runtime.layout.error.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/runtime.layout.error.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/runtime.with.mixin.error.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/runtime.with.mixin.error.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/fixtures/scripts.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/fixtures/scripts.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output-es2015/attr.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output-es2015/attr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output-es2015/attr.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output-es2015/attr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/attrs-data.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/attrs-data.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/attrs-data.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/attrs-data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/attrs.colon.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/attrs.colon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/attrs.colon.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/attrs.colon.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/attrs.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/attrs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/attrs.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/attrs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/attrs.js.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/attrs.js.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/attrs.js.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/attrs.js.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/attrs.unescaped.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/attrs.unescaped.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/attrs.unescaped.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/attrs.unescaped.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/basic.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/basic.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/basic.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/basic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/blanks.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/blanks.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/blanks.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/blanks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/block-code.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/block-code.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/block-code.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/block-code.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/block-expansion.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/block-expansion.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/block-expansion.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/block-expansion.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/block-expansion.shorthands.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/block-expansion.shorthands.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/block-expansion.shorthands.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/block-expansion.shorthands.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/blockquote.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/blockquote.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/blockquote.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/blockquote.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/blocks-in-blocks.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/blocks-in-blocks.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/blocks-in-blocks.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/blocks-in-blocks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/blocks-in-if.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/blocks-in-if.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/blocks-in-if.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/blocks-in-if.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/case-blocks.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/case-blocks.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/case-blocks.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/case-blocks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/case.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/case.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/case.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/case.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/classes-empty.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/classes-empty.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/classes.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/classes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/code.conditionals.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/code.conditionals.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/code.conditionals.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/code.conditionals.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/code.escape.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/code.escape.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/code.escape.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/code.escape.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/code.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/code.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/code.iteration.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/code.iteration.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/code.iteration.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/code.iteration.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/code.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/code.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/comments-in-case.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/comments-in-case.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/comments-in-case.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/comments-in-case.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/comments.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/comments.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/comments.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/comments.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/comments.source.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/comments.source.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/doctype.custom.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/doctype.custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/doctype.default.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/doctype.default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/doctype.default.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/doctype.default.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/doctype.keyword.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/doctype.keyword.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/each.else.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/each.else.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/each.else.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/each.else.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/escape-chars.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/escape-chars.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/escape-chars.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/escape-chars.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/escape-test.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/escape-test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/escape-test.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/escape-test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/escaping-class-attribute.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/escaping-class-attribute.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/escaping-class-attribute.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/escaping-class-attribute.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/filter-in-include.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/filter-in-include.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/filter-in-include.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/filter-in-include.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/filters-empty.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/filters-empty.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/filters-empty.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/filters-empty.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/filters.coffeescript.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/filters.coffeescript.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/filters.coffeescript.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/filters.coffeescript.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/filters.custom.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/filters.custom.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/filters.custom.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/filters.custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/filters.include.custom.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/filters.include.custom.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/filters.include.custom.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/filters.include.custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/filters.include.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/filters.include.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/filters.include.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/filters.include.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/filters.inline.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/filters.inline.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/filters.inline.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/filters.inline.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/filters.less.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/filters.less.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/filters.less.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/filters.less.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/filters.markdown.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/filters.markdown.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/filters.markdown.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/filters.markdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/filters.nested.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/filters.nested.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/filters.nested.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/filters.nested.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/filters.stylus.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/filters.stylus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/filters.stylus.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/filters.stylus.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/html.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/html.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/html.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/html.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/html5.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/html5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/html5.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/html5.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/include-extends-from-root.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/include-extends-from-root.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/include-extends-from-root.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/include-extends-from-root.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/include-extends-of-common-template.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/include-extends-of-common-template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/include-extends-of-common-template.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/include-extends-of-common-template.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/include-extends-relative.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/include-extends-relative.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/include-extends-relative.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/include-extends-relative.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/include-only-text-body.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/include-only-text-body.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/include-only-text.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/include-only-text.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/include-only-text.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/include-only-text.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/include-with-text-head.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/include-with-text-head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/include-with-text-head.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/include-with-text-head.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/include-with-text.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/include-with-text.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/include-with-text.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/include-with-text.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/include.script.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/include.script.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/include.script.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/include.script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/include.yield.nested.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/include.yield.nested.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/include.yield.nested.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/include.yield.nested.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/includes-with-ext-js.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/includes-with-ext-js.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/includes-with-ext-js.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/includes-with-ext-js.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/includes.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/includes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/includes.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/includes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.alert-dialog.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.alert-dialog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.alert-dialog.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.alert-dialog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.defaults.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.defaults.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.defaults.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.defaults.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.extend.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.extend.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.extend.include.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.extend.include.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.extend.include.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.extend.include.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.extend.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.extend.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.extend.mixins.block.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.extend.mixins.block.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.extend.mixins.block.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.extend.mixins.block.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.extend.mixins.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.extend.mixins.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.extend.mixins.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.extend.mixins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.extend.recursive.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.extend.recursive.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.extend.recursive.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.extend.recursive.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.extend.whitespace.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.extend.whitespace.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.extend.whitespace.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.extend.whitespace.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/inheritance.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/inline-tag.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/inline-tag.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/inline-tag.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/inline-tag.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/intepolated-elements.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/intepolated-elements.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/intepolated-elements.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/intepolated-elements.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/interpolated-mixin.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/interpolated-mixin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/interpolated-mixin.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/interpolated-mixin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/interpolation.escape.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/interpolation.escape.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/interpolation.escape.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/interpolation.escape.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/layout.append.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/layout.append.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/layout.append.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/layout.append.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/layout.append.without-block.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/layout.append.without-block.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/layout.append.without-block.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/layout.append.without-block.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/layout.multi.append.prepend.block.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/layout.multi.append.prepend.block.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/layout.multi.append.prepend.block.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/layout.multi.append.prepend.block.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/layout.prepend.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/layout.prepend.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/layout.prepend.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/layout.prepend.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/layout.prepend.without-block.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/layout.prepend.without-block.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/layout.prepend.without-block.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/layout.prepend.without-block.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/mixin-at-end-of-file.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/mixin-at-end-of-file.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/mixin-at-end-of-file.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/mixin-at-end-of-file.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/mixin-block-with-space.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/mixin-block-with-space.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/mixin-block-with-space.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/mixin-block-with-space.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/mixin-hoist.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/mixin-hoist.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/mixin-hoist.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/mixin-hoist.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/mixin-via-include.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/mixin-via-include.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/mixin-via-include.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/mixin-via-include.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/mixin.attrs.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/mixin.attrs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/mixin.attrs.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/mixin.attrs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/mixin.block-tag-behaviour.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/mixin.block-tag-behaviour.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/mixin.block-tag-behaviour.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/mixin.block-tag-behaviour.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/mixin.blocks.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/mixin.blocks.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/mixin.blocks.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/mixin.blocks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/mixin.merge.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/mixin.merge.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/mixin.merge.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/mixin.merge.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/mixins-unused.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/mixins-unused.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/mixins-unused.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/mixins-unused.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/mixins.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/mixins.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/mixins.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/mixins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/mixins.rest-args.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/mixins.rest-args.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/mixins.rest-args.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/mixins.rest-args.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/namespaces.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/namespaces.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/namespaces.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/namespaces.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/nesting.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/nesting.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/nesting.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/nesting.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/pipeless-comments.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/pipeless-comments.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/pipeless-comments.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/pipeless-comments.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/pipeless-filters.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/pipeless-filters.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/pipeless-filters.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/pipeless-filters.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/pipeless-tag.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/pipeless-tag.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/pipeless-tag.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/pipeless-tag.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/pre.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/pre.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/pre.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/pre.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/quotes.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/quotes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/quotes.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/quotes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/regression.1794.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/regression.1794.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/regression.1794.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/regression.1794.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/regression.784.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/regression.784.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/regression.784.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/regression.784.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/script.whitespace.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/script.whitespace.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/script.whitespace.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/script.whitespace.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/scripts.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/scripts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/scripts.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/scripts.non-js.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/scripts.non-js.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/scripts.non-js.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/scripts.non-js.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/self-closing-html.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/self-closing-html.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/self-closing-html.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/self-closing-html.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/single-period.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/single-period.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/source.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/source.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/source.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/source.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/styles.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/styles.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/styles.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/styles.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/tag.interpolation.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/tag.interpolation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/tag.interpolation.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/tag.interpolation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/tags.self-closing.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/tags.self-closing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/tags.self-closing.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/tags.self-closing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/template.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/template.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/template.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/text-block.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/text-block.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/text-block.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/text-block.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/text.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/text.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/text.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/text.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/utf8bom.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/utf8bom.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/utf8bom.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/utf8bom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/vars.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/vars.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/while.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/while.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/while.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/while.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/xml.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/xml.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/xml.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/xml.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/yield-before-conditional-head.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/yield-before-conditional-head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/yield-before-conditional-head.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/yield-before-conditional-head.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/yield-before-conditional.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/yield-before-conditional.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/yield-before-conditional.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/yield-before-conditional.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/yield-head.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/yield-head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/yield-head.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/yield-head.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/yield-title-head.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/yield-title-head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/yield-title-head.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/yield-title-head.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/yield-title.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/yield-title.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/yield-title.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/yield-title.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/yield.html" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/yield.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/output/yield.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/yield.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/pug.test.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/pug.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/regression-2436/__snapshots__/index.test.js.snap" afterPath="$PROJECT_DIR$/node_modules/pug/test/regression-2436/__snapshots__/index.test.js.snap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/regression-2436/index.test.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/regression-2436/index.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/regression-2436/issue1.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/regression-2436/issue1.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/regression-2436/issue2.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/regression-2436/issue2.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/regression-2436/layout.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/regression-2436/layout.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/regression-2436/other1.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/regression-2436/other1.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/regression-2436/other2.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/regression-2436/other2.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/regression-2436/other_layout.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/regression-2436/other_layout.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/run-es2015.test.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/run-es2015.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/run-syntax-errors.test.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/run-syntax-errors.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/run-utils.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/run-utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/run.test.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/run.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/shadowed-block/__snapshots__/index.test.js.snap" afterPath="$PROJECT_DIR$/node_modules/pug/test/shadowed-block/__snapshots__/index.test.js.snap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/shadowed-block/base.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/shadowed-block/base.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/shadowed-block/index.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/shadowed-block/index.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/shadowed-block/index.test.js" afterPath="$PROJECT_DIR$/node_modules/pug/test/shadowed-block/index.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pug/test/shadowed-block/layout.pug" afterPath="$PROJECT_DIR$/node_modules/pug/test/shadowed-block/layout.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/routes.js" afterPath="$PROJECT_DIR$/routes/routes.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -570,11 +15,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="2" lean-forward="false" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -614,6 +69,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/routes/routes.js" />
       </list>
     </option>
   </component>
@@ -668,6 +124,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -798,12 +268,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496158719483</updated>
-      <workItem from="1496158720644" duration="620000" />
+      <workItem from="1496158720644" duration="2011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="620000" />
+    <option name="totallyTimeSpent" value="2011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1080" extended-state="0" />
@@ -880,7 +350,15 @@
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="2" lean-forward="false" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
           <folding />
         </state>
       </provider>
