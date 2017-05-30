@@ -1,17 +1,11 @@
 doctype html
 html
     head
-        -var title = obj.title;
         block vars
         title #{title}
         link(href = 'style.css', rel='stylesheet')
     body
         header
-            nav
-                ul
-                    each item in config.menu
-                        li
-                            a(href=item[1]) #{item[0]}
         div(id='content', class='item')
             h1 #{title}
             h3 #{description}
