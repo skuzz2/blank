@@ -6,6 +6,8 @@ var express = require('express'),
     bcrypt = require('bcrypt-nodejs'),
     hash;
 
+const saltRounds = 7;
+
 var app = express();
 
 app.set('view engine', 'pug');
@@ -29,3 +31,10 @@ app.get('/admin', function(req, res){
 });
 
 app.listen(3000);
+
+//CONFUSED ON IMPLEMENTATION
+//HOW TO PASS IN PASSWORD
+//HOW TO RUN WHEN NEEDED AND IGNORE WHEN NOT
+// bcrypt.hash(userPassword, saltRounds, function(err, hash) {
+//     // Store hash in your password DB.
+// });
