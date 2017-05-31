@@ -31,3 +31,15 @@ body {
     float: right;
     width: 25%;
 }
+
+a:link {
+    color: #00f;
+}
+
+a:visted {
+    color: #00f;
+}
+
+a:active {
+    color: #00f;
+}
