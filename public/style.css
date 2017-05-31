@@ -1,3 +1,32 @@
 th {
     border: 1px solid #000;
 }
+
+body {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#login {
+    margin-left: 17%;
+    /*border: 1px solid #000;    */
+    float: left;
+    width: 30%;
+}
+
+#divSpacer {
+    margin-left: 38%;
+    margin-right: 35%;
+    position: absolute;
+    width: 1px;
+    height: 50%;
+    background-color: #000; 
+}
+
+#newUser {
+    margin-right: 17%;
+    /*border: 1px solid #000;*/
+    float: right;
+    width: 25%;
+}
