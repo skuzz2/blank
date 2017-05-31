@@ -6,7 +6,7 @@ var express = require('express'),
     bcrypt = require('bcrypt-nodejs'), 
     expressSession = require('express-session'),
     hash;
-
+//you fuck you bic
 const saltRounds = 7;
 
 var app = express();
