@@ -19,6 +19,10 @@ app.get('/', function(req, res){
   res.render("index");
 });
 
+app.get('/create', function(req, res){
+  res.render("create.pug");
+});
+
 app.get('/admin', function(req, res){
     res.render('admin');
 });

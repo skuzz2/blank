@@ -2,9 +2,19 @@ extends layout
 
 block content
   form(id='form', method='post', action='/submitted')
-        p userName:&nbsp;
+        p UserName:&nbsp;
           input(type='text', name='userName')
-        p password:&nbsp
+        p Password:&nbsp;
           input(type='text', name='password')
+        p Age:&nbsp;
+          input(type='text, name='age')
+        p Email:&nbsp;
+          input(type='text', name='email')
+        p FavoriteAnimal:&nbsp;
+          input(type='text', name='animal')
+        p FavoriteColor:&nbsp;
+          input(type='text', name='color')
+        p FavoriteFood:&nbsp;
+          input(type='text', name='food')
         p
-          input(type='submit', value='Send it')
+          input(type='submit', value='Log In')
