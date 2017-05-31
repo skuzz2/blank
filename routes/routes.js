@@ -29,6 +29,7 @@ var User = mongoose.model('User_Collection', userSchema);
 * *
 * *
 * *
+* TO DO: ANSWERS IMPLEMENTATION
 *
 * */
 
@@ -63,40 +64,41 @@ exports.createUser = function (req, res) {
     res.redirect('/');
 };
 
-// exports.edit = function (req, res) {
-//     Person.findById(req.params.id, function (err, person) {
-//         if (err) return console.error(err);
-//         res.render('edit', {
-//             title: 'Edit Person',
-//             person: person
-//         });
-//     });
-// };
-//
-// exports.editPerson = function (req, res) {
-//     Person.findById(req.params.id, function (err, person) {
-//         if (err) return console.error(err);
-//         person.firstname = req.body.firstname;
-//         person.lastname = req.body.lastname;
-//         person.age = req.body.age;
-//         person.species = req.body.species;
-//         person.victims = req.body.victims;
-//         person.save(function (err, person) {
-//             if (err) return console.error(err);
-//             console.log(req.body.firstname + ' updated');
-//         });
-//     });
-//     res.redirect('/');
-//
-// };
-//
-// exports.delete = function (req, res) {
-//     Person.findByIdAndRemove(req.params.id, function (err, person) {
-//         if (err) return console.error(err);
-//         res.redirect('/');
-//     });
-// };
-//
+exports.edit = function (req, res) {
+    User.findById(req.params.id, function (err, user) {
+        if (err) return console.error(err);
+        res.render('edit', {
+            title: 'Edit Person',
+            person: person
+        });
+    });
+};
+
+exports.editPerson = function (req, res) {
+    User.findById(req.params.id, function (err, user) {
+        if (err) return console.error(err);
+        user.usernamename = req.body.username;
+        user.password = req.body.password;
+        user.admin = req.body.admin;
+        user.email = req.body.email;
+        user.age = req.body.age;
+        user.save(function (err, user) {
+            if (err) return console.error(err);
+            console.log(req.body.username + ' updated');
+        });
+    });
+    res.redirect('/');
+
+};
+
+exports.delete = function (req, res) {
+    User.findByIdAndRemove(req.params.id, function (err, user) {
+        if (err) return console.error(err);
+        res.redirect('/');
+    });
+};
+
+//DO WE EVEN NEED THIS?
 // exports.details = function (req, res) {
 //     Person.findById(req.params.id, function (err, person) {
 //         if (err) return console.error(err);
