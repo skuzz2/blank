@@ -24,24 +24,20 @@ var User = mongoose.model('User_Collection', userSchema);
 * *
 * *
 * *
-* DON'T DUCK WITH ANYTHING BELOW THIS
-* *
-* *
-* *
 * *
 * TO DO: ANSWERS IMPLEMENTATION
 *
 * */
 
-// exports.index = function (req, res) {
-//     Person.find(function (err, person) {
-//         if (err) return console.error(err);
-//         res.render('index', {
-//             title: 'People List',
-//             people: person
-//         });
-//     });
-// };
+exports.index = function (req, res) {
+    User.find(function (err, user) {
+        if (err) return console.error(err);
+        res.render('index', {
+            title: 'User List',
+            people: user
+        });
+    });
+};
 
 exports.create = function (req, res) {
     res.render('create', {
@@ -97,14 +93,3 @@ exports.delete = function (req, res) {
         res.redirect('/');
     });
 };
-
-//DO WE EVEN NEED THIS?
-// exports.details = function (req, res) {
-//     Person.findById(req.params.id, function (err, person) {
-//         if (err) return console.error(err);
-//         res.render('details', {
-//             title: person.firstname + "'s Details",
-//             person: person
-//         });
-//     });
-// };

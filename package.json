@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/skuzz2/blank#readme",
   "dependencies": {
+    "bcrypt": "^1.0.2",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.17.2",
     "cookie-parser": "^1.4.3",
