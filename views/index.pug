@@ -4,13 +4,13 @@ block content
     h3=title
     div(id='login')
       h3 Existing User's Login
-      form(id='form', method='post', action='/submitted')
+      form(id='form', method='post', action='/')
           p Username:&nbsp;
             br
             input(type='text', name='username')
           p Password:&nbsp;
             br
-            input(type='text', name='password')
+            input(type='password', name='password')
           p
             input(type='submit', value='Log In')
     div(id='divSpacer')        
