@@ -2,15 +2,18 @@ extends layout
 
 block content
     h3=title
-    p This is cool Woot!
-    form(id='form', method='post', action='/')
-        p Username:&nbsp;
-          br
-          input(type='text', name='username')
-        p Password:&nbsp;
-          br
-          input(type='password', name='password')
-        p
-          input(type='submit', value='Log In')
-    
-    a(href="/create") Create New User
+    div(id='login')
+      h3 Existing User's Login
+      form(id='form', method='post', action='/submitted')
+          p Username:&nbsp;
+            br
+            input(type='text', name='username')
+          p Password:&nbsp;
+            br
+            input(type='text', name='password')
+          p
+            input(type='submit', value='Log In')
+    div(id='divSpacer')        
+    div(id='newUser')
+      h3 New User Account Creation
+      a(href="/create") Create New User
