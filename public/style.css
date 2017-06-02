@@ -32,6 +32,10 @@ body {
     width: 25%;
 }
 
+a {
+    color: #00f;
+}
+
 a:link {
     color: #00f;
 }
@@ -42,4 +46,17 @@ a:visted {
 
 a:active {
     color: #00f;
+}
+
+#canvas {
+    display: inline-block;
+}
+
+#my_canvas {
+    /*background-image: url('images/squairy_light.png');*/
+    background-color: #000; 
+}
+
+#canvasHolder {
+    width: 100%;
 }

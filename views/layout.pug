@@ -3,7 +3,7 @@ html
     head
         block vars
         title #{title}
-        link(href = '/style.css', rel='stylesheet')
+        link(href = './style.css', rel='stylesheet')
     body
         header
         div(id='content', class='item')
@@ -11,5 +11,4 @@ html
             h3 #{description}
             block content
                 p
-                canvas(id='my_canvas', width='300', height='200')
         footer
