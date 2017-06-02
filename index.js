@@ -29,6 +29,10 @@ var urlencodedParser = bodyParser.urlencoded({
     extended: true
 });
 
+app.get('/', function(req, res){
+    res.render("index");
+});
+
 app.post('/', urlencodedParser, function (req, res) { 
     console.log(req.body.username); 
     if (req.body.username == 'admin' && req.body.password == 'pass') { 
