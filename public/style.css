@@ -48,15 +48,29 @@ a:active {
     color: #00f;
 }
 
-#canvas {
+.canvas {
     display: inline-block;
+    margin-left: 3.25%;
+    margin-right: 3.25%;
 }
 
-#my_canvas {
+#my_canvas1 {
     /*background-image: url('images/squairy_light.png');*/
-    background-color: #000; 
+    background-color: #000;
+}
+
+#my_canvas2 {
+    /*background-image: url('images/squairy_light.png');*/
+    background-color: #000;
+}
+
+#my_canvas3 {
+    /*background-image: url('images/squairy_light.png');*/
+    background-color: #000;
 }
 
 #canvasHolder {
-    width: 100%;
+    width: 80%;
+    margin-top: 25%;
+    position: absolute;
 }
