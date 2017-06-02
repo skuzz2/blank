@@ -11,6 +11,14 @@ const saltRounds = 7;
 
 var app = express();
 
+var checkAuth = function (req, res, next) {
+    if (req.session.user && req.session.user.isAuthenticated) {
+        next();
+    } else {
+        res.redirect('/');
+    }
+};
+
 app.use(expressSession({secret: '5ecretP455c0de', saveUninitialized: true, resave: true})); 
 
 app.set('view engine', 'pug');
@@ -21,9 +29,6 @@ var urlencodedParser = bodyParser.urlencoded({
     extended: true
 });
 
-app.get('/', function(req, res){
-  res.render("index");
-});
 app.post('/', urlencodedParser, function (req, res) { 
     console.log(req.body.username); 
     if (req.body.username == 'admin' && req.body.password == 'pass') { 
@@ -31,16 +36,28 @@ app.post('/', urlencodedParser, function (req, res) {
         res.redirect('/admin'); 
     } else { 
         // logout here so if the user was logged in before, it will log them out if user/pass wrong 
-        res.redirect('/'); 
+        res.redirect('/logout'); 
     } 
 }); 
 
+app.get('/logout', function (req, res) {
+    req.session.destroy(function(err){
+        if(err){
+            console.log(err);
+        }
+        else
+        {
+            res.redirect('/');
+        }
+    });
+
+});
 
 app.get('/create', function(req, res){
   res.render("create.pug");
 });
 
-app.get('/admin', function(req, res){
+app.get('/admin', checkAuth, function(req, res){
     res.render('admin');
 });
 
