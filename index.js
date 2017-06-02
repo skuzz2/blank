@@ -30,7 +30,7 @@ var urlencodedParser = bodyParser.urlencoded({
 });
 
 app.get('/', function(req, res){
-    res.render("index");
+  res.render('index');
 });
 
 app.post('/', urlencodedParser, function (req, res) { 
