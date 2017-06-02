@@ -10,14 +10,14 @@ body {
 }
 
 #login {
-    margin-left: 17%;
+    margin-left: 20%;
     /*border: 1px solid #000;    */
     float: left;
     width: 30%;
 }
 
 #divSpacer {
-    margin-left: 38%;
+    margin-left: 40%;
     margin-right: 35%;
     position: absolute;
     width: 1px;
@@ -26,7 +26,7 @@ body {
 }
 
 #newUser {
-    margin-right: 17%;
+    margin-right: 10%;
     /*border: 1px solid #000;*/
     float: right;
     width: 25%;
@@ -50,8 +50,8 @@ a:active {
 
 .canvas {
     display: inline-block;
-    margin-left: 3.25%;
-    margin-right: 3.25%;
+    margin-left: 3.7%;
+    margin-right: 3.7%;
 }
 
 #my_canvas1 {
@@ -73,4 +73,13 @@ a:active {
     width: 80%;
     margin-top: 25%;
     position: absolute;
+}
+
+#canvasHeader {
+    width: 100%;
+    text-align: center;
+}
+
+hr {
+    border:1px solid #000;
 }
