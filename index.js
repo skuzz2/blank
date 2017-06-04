@@ -33,8 +33,7 @@ app.get('/', function(req, res){
   res.render('index');
 });
 
-app.post('/', urlencodedParser, function (req, res) { 
-    console.log(req.body.username); 
+app.post('/', urlencodedParser, function (req, res) {  
     if (req.body.username == 'admin' && req.body.password == 'pass') { 
         req.session.user = { isAuthenticated: true, username: req.body.username}; 
         res.redirect('/admin'); 

@@ -29,10 +29,10 @@ var User = mongoose.model('User_Collection', userSchema);
 *
 * */
 
-exports.index = function (req, res) {
+exports.admin = function (req, res) {
     User.find(function (err, user) {
         if (err) return console.error(err);
-        res.render('index', {
+        res.render('admin', {
             title: 'User List',
             people: user
         });
