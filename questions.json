@@ -1,0 +1,23 @@
+{
+  "questionOne": "What is your favorite animal?",
+  "oneAnswers": [
+    "Panda",
+    "Ferret",
+    "Crocodile",
+    "Cat"
+  ],
+  "questionTwo": "What is your favorite color?",
+  "twoAnswers": [
+    "Red",
+    "Purple",
+    "Chartreuse",
+    "Orange"
+  ],
+  "questionThree": "What is your favorite food?",
+  "threeAnswers": [
+    "Spaghetti",
+    "Cheeseburger",
+    "Tacos",
+    "Ice Cream"
+  ]
+}
