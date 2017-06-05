@@ -47,6 +47,9 @@ app.post('/', urlencodedParser, function (req, res) {
     if (req.body.username == 'admin' && req.body.password == 'pass') { 
         req.session.user = { isAuthenticated: true, username: req.body.username}; 
         res.redirect('/admin'); 
+    } else if(req.body.username == '' && req.body.password == ''){
+      res.session.user = {isAuthenticated: false, user: req.body.username};
+      res.redirect('/user');
     } else { 
         // logout here so if the user was logged in before, it will log them out if user/pass wrong 
         res.redirect('/logout'); 
