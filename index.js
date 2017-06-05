@@ -5,7 +5,8 @@ var express = require('express'),
     bodyParser = require('body-parser'),
     bcrypt = require('bcrypt-nodejs'), 
     expressSession = require('express-session'),
-    hash;
+    hash,
+    questions = require('./questions.json');
 
 const saltRounds = 7;
 
@@ -28,6 +29,13 @@ function toHash(my_str) {
 function outputHash(my_str){
     console.log(my_str);
 }
+
+//CONFUSED ON IMPLEMENTATION
+//HOW TO PASS IN PASSWORD
+//HOW TO RUN WHEN NEEDED AND IGNORE WHEN NOT
+// bcrypt.hash(userPassword, saltRounds, function(err, hash) {
+//     // Store hash in your password DB.
+// });
 
 app.use(expressSession({secret: '5ecretP455c0de', saveUninitialized: true, resave: true})); 
 
@@ -85,11 +93,10 @@ app.get('/:user', checkAuth, function (req, res) {
     res.cookie('date', date).send('cookie set');
 });
 
-app.listen(3000);
+app.get('/create', function(req, res){
+    res.render('create', {
+        questions: questions
+    });
+});
 
-//CONFUSED ON IMPLEMENTATION
-//HOW TO PASS IN PASSWORD
-//HOW TO RUN WHEN NEEDED AND IGNORE WHEN NOT
-// bcrypt.hash(userPassword, saltRounds, function(err, hash) {
-//     // Store hash in your password DB.
-// });
+app.listen(3000);
