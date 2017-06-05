@@ -19,6 +19,16 @@ var checkAuth = function (req, res, next) {
     }
 };
 
+function toHash(my_str) {
+    bcrypt.hash(my_str, null, null, function (err, hash) {
+        outputhash(hash);
+    });
+}
+
+function outputHash(my_str){
+    console.log(my_str);
+}
+
 app.use(expressSession({secret: '5ecretP455c0de', saveUninitialized: true, resave: true})); 
 
 app.set('view engine', 'pug');
@@ -61,6 +71,9 @@ app.get('/create', function(req, res){
 });
 app.post('/create', urlencodedParser, route.createUser);
 app.get('/admin', checkAuth, route.admin);
+app.get('/delete/:id', route.delete);
+app.get('/edit/:id', route.edit);
+app.post('/edit/:id', route.editUser);
 
 
 app.get('/:user', checkAuth, function (req, res) {
