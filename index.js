@@ -62,6 +62,13 @@ app.get('/create', function(req, res){
 app.post('/create', urlencodedParser, route.createUser);
 app.get('/admin', checkAuth, route.admin);
 
+
+app.get('/:user', checkAuth, function (req, res) {
+    user = req.session.user.username;
+    res.cookie('user', user).send('cookie set');
+    res.cookie('date', date).send('cookie set');
+});
+
 app.listen(3000);
 
 //CONFUSED ON IMPLEMENTATION
