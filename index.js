@@ -7,7 +7,8 @@ var express = require('express'),
     expressSession = require('express-session'),
     hash,
     user,
-    date = Date();
+    date = Date(),
+    questions = require('./questions.json');
 
 const saltRounds = 7;
 
@@ -31,6 +32,13 @@ function outputHash(my_str){
     console.log(my_str);
 }
 
+//CONFUSED ON IMPLEMENTATION
+//HOW TO PASS IN PASSWORD
+//HOW TO RUN WHEN NEEDED AND IGNORE WHEN NOT
+// bcrypt.hash(userPassword, saltRounds, function(err, hash) {
+//     // Store hash in your password DB.
+// });
+
 app.use(expressSession({secret: '5ecretP455c0de', saveUninitialized: true, resave: true})); 
 
 app.set('view engine', 'pug');
@@ -49,6 +57,9 @@ app.post('/', urlencodedParser, function (req, res) {
     if (req.body.username == 'admin' && req.body.password == 'pass') { 
         req.session.user = { isAuthenticated: true, username: req.body.username}; 
         res.redirect('/admin'); 
+    } else if(req.body.username == '' && req.body.password == ''){
+      res.session.user = {isAuthenticated: false, user: req.body.username};
+      res.redirect('/user');
     } else { 
         // logout here so if the user was logged in before, it will log them out if user/pass wrong 
         res.redirect('/logout'); 
@@ -84,11 +95,10 @@ app.get('/user', checkAuth, function (req, res) {
     res.cookie('date', date).send('cookie set');
 });
 
-app.listen(3000);
+app.get('/create', function(req, res){
+    res.render('create', {
+        questions: questions
+    });
+});
 
-//CONFUSED ON IMPLEMENTATION
-//HOW TO PASS IN PASSWORD
-//HOW TO RUN WHEN NEEDED AND IGNORE WHEN NOT
-// bcrypt.hash(userPassword, saltRounds, function(err, hash) {
-//     // Store hash in your password DB.
-// });
+app.listen(3000);
