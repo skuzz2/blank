@@ -61,6 +61,9 @@ app.get('/create', function(req, res){
 });
 app.post('/create', urlencodedParser, route.createUser);
 app.get('/admin', checkAuth, route.admin);
+app.get('/delete/:id', route.delete);
+app.get('/edit/:id', route.edit);
+app.post('/edit/:id', route.editUser);
 
 app.listen(3000);
 

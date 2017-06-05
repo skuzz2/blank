@@ -15,8 +15,7 @@ block content
       th 
       each item in people
         tr
-          td
-            a(href='/details/' + item.id) #{item.id}
+          td #{item.id}
           td #{item.username}
           td #{item.password}
           td #{item.level}
@@ -25,8 +24,6 @@ block content
           td #{item.q1}
           td #{item.q2}
           td #{item.q3}
-          td
-            a(href='/edit/' + item.id) Edit
           td
             a(href='/delete/' + item.id) Delete
 

@@ -1,3 +1,27 @@
 extends layout
 
 block content
+  form(id='form', method='post', action='/create')
+        p Username:&nbsp;
+          br
+          input(type='text', name='username')
+        p Password:&nbsp;
+          br
+          input(type='password', name='password')
+        p Age:&nbsp;
+          br
+          input(type='text', name='age')
+        p Email:&nbsp;
+          br
+          input(type='text', name='email')
+        p Favorite Animal:&nbsp;
+          br
+          input(type='text', name='animal')
+        p Favorite Color:&nbsp;
+          br
+          input(type='text', name='color')
+        p Favorite Food:&nbsp;
+          br
+          input(type='text', name='food')
+        p
+          input(type='submit', value='Create User')

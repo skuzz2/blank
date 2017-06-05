@@ -70,10 +70,10 @@ exports.edit = function (req, res) {
     });
 };
 
-exports.editPerson = function (req, res) {
+exports.editUser = function (req, res) {
     User.findById(req.params.id, function (err, user) {
         if (err) return console.error(err);
-        user.usernamename = req.body.username;
+        user.username = req.body.username;
         user.password = req.body.password;
         user.admin = req.body.admin;
         user.email = req.body.email;
@@ -90,6 +90,6 @@ exports.editPerson = function (req, res) {
 exports.delete = function (req, res) {
     User.findByIdAndRemove(req.params.id, function (err, user) {
         if (err) return console.error(err);
-        res.redirect('/');
+        res.redirect('/admin');
     });
 };
