@@ -60,9 +60,7 @@ app.get('/create', function(req, res){
   res.render("create.pug");
 });
 app.post('/create', urlencodedParser, route.createUser);
-app.get('/admin', checkAuth, function(req, res){
-    res.render('admin');
-});
+app.get('/admin', checkAuth, route.admin);
 
 app.listen(3000);
 
