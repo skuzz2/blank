@@ -5,7 +5,9 @@ var express = require('express'),
     bodyParser = require('body-parser'),
     bcrypt = require('bcrypt-nodejs'), 
     expressSession = require('express-session'),
-    hash;
+    hash,
+    user,
+    date = Date();
 
 const saltRounds = 7;
 
@@ -76,7 +78,7 @@ app.get('/edit/:id', route.edit);
 app.post('/edit/:id', route.editUser);
 
 
-app.get('/:user', checkAuth, function (req, res) {
+app.get('/user', checkAuth, function (req, res) {
     user = req.session.user.username;
     res.cookie('user', user).send('cookie set');
     res.cookie('date', date).send('cookie set');
