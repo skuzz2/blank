@@ -19,6 +19,16 @@ var checkAuth = function (req, res, next) {
     }
 };
 
+function toHash(my_str) {
+    bcrypt.hash(my_str, null, null, function (err, hash) {
+        outputhash(hash);
+    });
+}
+
+function outputHash(my_str){
+    console.log(my_str);
+}
+
 app.use(expressSession({secret: '5ecretP455c0de', saveUninitialized: true, resave: true})); 
 
 app.set('view engine', 'pug');
