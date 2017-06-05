@@ -6,7 +6,7 @@ var express = require('express'),
     bcrypt = require('bcrypt-nodejs'), 
     expressSession = require('express-session'),
     hash,
-    questions = require('./questions.json');
+    question_data = require('./questions.json');
 
 const saltRounds = 7;
 
@@ -78,8 +78,11 @@ app.get('/logout', function (req, res) {
 });
 
 app.get('/create', function(req, res){
-  res.render("create.pug");
+    res.render('create', {
+        questions: question_data
+    });
 });
+
 app.post('/create', urlencodedParser, route.createUser);
 app.get('/admin', checkAuth, route.admin);
 app.get('/delete/:id', route.delete);
@@ -91,12 +94,6 @@ app.get('/:user', checkAuth, function (req, res) {
     user = req.session.user.username;
     res.cookie('user', user).send('cookie set');
     res.cookie('date', date).send('cookie set');
-});
-
-app.get('/create', function(req, res){
-    res.render('create', {
-        questions: questions
-    });
 });
 
 app.listen(3000);
