@@ -36,7 +36,7 @@ exports.admin = function (req, res) {
         if (err) return console.error(err);
         res.render('admin', {
             title: 'User List',
-            users: user
+            people: user
         });
     });
 };
