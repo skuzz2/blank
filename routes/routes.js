@@ -11,10 +11,12 @@ mdb.once('open', function (callback) {
 var userSchema = mongoose.Schema({
     username: String,
     password: String,
-    admin: Boolean,
+    admin: String,
     email: String,
-    age: Number,
-    answers: []
+    age: String,
+    answerOne: String,
+    answerTwo: String,
+    answerThree: String
 });
 
 var User = mongoose.model('User_Collection', userSchema);
@@ -34,7 +36,7 @@ exports.admin = function (req, res) {
         if (err) return console.error(err);
         res.render('admin', {
             title: 'User List',
-            people: user
+            users: user
         });
     });
 };
@@ -51,7 +53,10 @@ exports.createUser = function (req, res) {
         password: req.body.password,
         admin: req.body.admin,
         email: req.body.email,
-        age: req.body.age
+        age: req.body.age,
+        answerOne: req.body.answerOne,
+        answerTwo: req.body.answerTwo,
+        answerThree: req.body.answerThree
     });
     user.save(function (err, user) {
         if (err) return console.error(err);
