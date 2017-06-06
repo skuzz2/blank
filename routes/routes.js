@@ -19,7 +19,7 @@ var userSchema = mongoose.Schema({
     answerThree: String
 });
 
-var User = mongoose.model('User_Collection', userSchema);
+var User = mongoose.model('User_Collection_Two', userSchema);
 
 /*
 * *
@@ -34,7 +34,7 @@ var User = mongoose.model('User_Collection', userSchema);
 exports.index = function(req, res) {
   User.findOne({'username': 'admin'}, 'password', function (err, User) {
     if (err) return handleError(err);
-      if(req.body.password == User.password){
+      if(req.body.password === User.password){
         req.session.user = { isAuthenticated: true, username: req.body.username}; 
         res.redirect('/admin');
       } else { 
@@ -72,6 +72,7 @@ exports.createUser = function (req, res) {
         answerTwo: req.body.answerTwo,
         answerThree: req.body.answerThree
     });
+    console.log(user.answerOne);
     user.save(function (err, user) {
         if (err) return console.error(err);
         console.log(req.body.username + ' added');
@@ -108,7 +109,12 @@ exports.editUser = function (req, res) {
 
 exports.delete = function (req, res) {
     User.findByIdAndRemove(req.params.id, function (err, user) {
-        if (err) return console.error(err);
+        if (err){
+            return console.error(err);
+        }
+        else{
+            console.log(req.body.username + ' removed');
+        }
         res.redirect('/admin');
     });
 };
