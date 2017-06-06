@@ -16,21 +16,21 @@ block content
           input(type='text', name='email')
         p #{questions.questionOne}
           br
-          select(id='questionOne', class='questions')
+          select(id='questionOne', class='questions', name='answerOne')
             option(id='oneA', class='oneAnswers') #{questions.oneAnswers[0]}
             option(id='oneB', class='oneAnswers') #{questions.oneAnswers[1]}
             option(id='oneC', class='oneAnswers') #{questions.oneAnswers[2]}
             option(id='oneD', class='oneAnswers') #{questions.oneAnswers[3]}
         p #{questions.questionTwo}
           br
-          select(id='questionTwo', class='questions')
+          select(id='questionTwo', class='questions', name='answerTwo')
             option(id='twoA', class='twoAnswers') #{questions.twoAnswers[0]}
             option(id='twoB', class='twoAnswers') #{questions.twoAnswers[1]}
             option(id='twoC', class='twoAnswers') #{questions.twoAnswers[2]}
             option(id='twoD', class='twoAnswers') #{questions.twoAnswers[3]}
         p #{questions.questionThree}
           br
-          select(id='questionThree', class='questions')
+          select(id='questionThree', class='questions', name='answerThree')
             option(id='threeA', class='threeAnswers') #{questions.threeAnswers[0]}
             option(id='threeB', class='threeAnswers') #{questions.threeAnswers[1]}
             option(id='threeC', class='threeAnswers') #{questions.threeAnswers[2]}
