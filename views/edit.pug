@@ -13,7 +13,7 @@ block content
         p Email:&nbsp;
           br
           input(type='text', name='email', value=person.email)
-        p Favorite Animal:&nbsp;
+        p #{questions.questionOne}
           br
           select(id='answerOne', class='questions', name='answerOne')
             option(id='oneA', class='oneAnswers') #{questions.oneAnswers[0]}

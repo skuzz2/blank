@@ -87,7 +87,8 @@ exports.edit = function (req, res) {
         if (err) return console.error(err);
         res.render('edit', {
             title: 'Edit Person',
-            person: user
+            person: user,
+            questions: question_data
         });
     });
 };
