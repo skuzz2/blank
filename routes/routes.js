@@ -116,7 +116,6 @@ exports.editUser = function (req, res) {
         });
     });
     res.redirect('/');
-
 };
 
 exports.delete = function (req, res) {
@@ -135,7 +134,7 @@ exports.user = function (req, res) {
 //         });
 //     });
 
- User.findById(req.params.id, function (err, user) {
+    User.findById(req.params.id, function (err, user) {
         if (err) return console.error(err);
         res.render('user', {
             title: 'User Info',
