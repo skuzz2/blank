@@ -81,7 +81,7 @@ app.post('/edit/:id', route.editUser);
 app.get('/user/:id', route.user);
 
 
-app.get('/user', checkAuth, function (req, res) {
+app.get('/user', function (req, res) {
     user = req.session.user.username;
     res.cookie('user', user).send('cookie set');
     res.cookie('date', date).send('cookie set');

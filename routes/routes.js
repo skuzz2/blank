@@ -32,16 +32,29 @@ var User = mongoose.model('User_Collection_Two', userSchema);
 * */
 
 exports.index = function(req, res) {
-  User.findOne({'username': 'admin'}, 'password', function (err, User) {
-    if (err) return handleError(err);
-      if(req.body.password === User.password){
-        req.session.user = { isAuthenticated: true, username: req.body.username}; 
-        res.redirect('/admin');
-      } else { 
-        // logout here so if the user was logged in before, it will log them out if user/pass wrong 
-        res.redirect('/logout'); 
-      }
-  });
+  if(req.body.username === 'admin'){
+    User.findOne({'username': 'admin'}, 'password', function (err, User) {
+      if (err) return handleError(err);
+        if(req.body.password === User.password){
+          req.session.user = { isAuthenticated: true, username: req.body.username}; 
+          res.redirect('/admin');
+        } else { 
+          // logout here so if the user was logged in before, it will log them out if user/pass wrong 
+          res.redirect('/logout'); 
+        }
+      });
+  } else {
+     User.findOne({'username': req.body.username}, 'password', function (err, User) {
+      if (err) return handleError(err);
+        if(req.body.password === User.password){
+          req.session.user = { isAuthenticated: false, username: req.body.username}; 
+          res.redirect('/user');
+        } else { 
+          // logout here so if the user was logged in before, it will log them out if user/pass wrong 
+          res.redirect('/logout'); 
+        }
+      });   
+  }
 };
 
 exports.admin = function (req, res) {
