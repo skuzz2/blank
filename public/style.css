@@ -51,6 +51,7 @@ body {
 
 a {
     color: #00f;
+    text-decoration: none;
 }
 
 a:link {
