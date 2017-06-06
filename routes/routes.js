@@ -127,7 +127,7 @@ exports.delete = function (req, res) {
 };
 
 exports.user = function (req, res) {
-//    User.findOne('username:', req.session.user.username, function (err, user) {
+//    User.findOne({'username': req.session.user.username}, function (err, user) {
 //         if (err) return console.error(err);
 //         res.render('user', {
 //             title: 'User Info',
@@ -138,7 +138,7 @@ exports.user = function (req, res) {
  User.findById(req.params.id, function (err, user) {
         if (err) return console.error(err);
         res.render('user', {
-            title: 'Edit Person',
+            title: 'User Info',
             person: user
         });
     });
