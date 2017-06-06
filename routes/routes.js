@@ -109,12 +109,7 @@ exports.editUser = function (req, res) {
 
 exports.delete = function (req, res) {
     User.findByIdAndRemove(req.params.id, function (err, user) {
-        if (err){
-            return console.error(err);
-        }
-        else{
-            console.log(req.body.username + ' removed');
-        }
+        if (err) return console.error(err);
         res.redirect('/admin');
     });
 };
