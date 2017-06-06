@@ -94,12 +94,15 @@ exports.edit = function (req, res) {
 
 exports.editUser = function (req, res) {
     User.findById(req.params.id, function (err, user) {
-        if (err) return console.error(err);
+        if (err) return console.error(err);        
         user.username = req.body.username;
         user.password = req.body.password;
         user.admin = req.body.admin;
         user.email = req.body.email;
         user.age = req.body.age;
+        answerOne = req.body.answerOne;
+        answerTwo = req.body.answerTwo;
+        answerThree = req.body.answerThree;
         user.save(function (err, user) {
             if (err) return console.error(err);
             console.log(req.body.username + ' updated');
@@ -119,6 +122,7 @@ exports.user = function (req, res) {
   User.findOne({'username': req.session.user.username}, function (err, User) {
       if (err) return handleError(err);
       res.render('user', {
+        id: User.id,
         username: User.username,
         password: User.password,
         age: User.age,
