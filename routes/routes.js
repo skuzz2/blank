@@ -31,6 +31,20 @@ var User = mongoose.model('User_Collection', userSchema);
 *
 * */
 
+exports.index = function(req, res) {
+  User.findOne({'username': 'admin'}, 'password', function (err, User) {
+    if (err) return handleError(err);
+      if(req.body.password == User.password){
+        req.session.user = { isAuthenticated: true, username: req.body.username}; 
+        res.redirect('/admin');
+      } else { 
+        // logout here so if the user was logged in before, it will log them out if user/pass wrong 
+        res.redirect('/logout'); 
+      }
+  })
+}
+
+
 exports.admin = function (req, res) {
     User.find(function (err, user) {
         if (err) return console.error(err);
