@@ -127,10 +127,19 @@ exports.delete = function (req, res) {
 };
 
 exports.user = function (req, res) {
-   // User.findById(req.params.id, function (err, user) {
-   //     if (err) return console.error(err);
-        res.render('user');
-   //     person: user
-   //   });
-   // });
+//    User.findOne('username:', req.session.user.username, function (err, user) {
+//         if (err) return console.error(err);
+//         res.render('user', {
+//             title: 'User Info',
+//             people: user
+//         });
+//     });
+
+ User.findById(req.params.id, function (err, user) {
+        if (err) return console.error(err);
+        res.render('user', {
+            title: 'Edit Person',
+            person: user
+        });
+    });
 };

@@ -1,26 +1,29 @@
 extends layout
-
 block content
-  p Hello world
-    #{person.username}
+  p Hello #{username}
+  p #{un}
+  table
+    tr(id='tableHeader')
+        th Id
+        th Username
+        th Password
+        th User Level
+        th Email
+        th Age
+        th Question #1
+        th Question #2
+        th Question #3
+        th
+          tr
+            td #{username}
+            td #{password}
+            td #{admin}
+            td #{email}
+            td #{age}
+            td #{answerOne}
+            td #{answerTwo}
+            td #{answerThree}
+            td
+              a(href='/delete/' + id) Delete
 
-  tr(id='tableHeader')
-      th Id
-      th Username
-      th Password
-      th User Level
-      th Email
-      th Age
-      th Question #1
-      th Question #2
-      th Question #3
-      th
-        tr
-          td #{person.username}
-          td #{person.password}
-          td #{person.admin}
-          td #{person.email}
-          td #{person.age}
-          td #{person.answerOne}
-          td #{person.answerTwo}
-          td #{person.answerThree}
+        a(href='/logout') Logout
