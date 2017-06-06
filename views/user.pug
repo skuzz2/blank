@@ -15,15 +15,14 @@ block content
       th Question #3
       th 
         tr
-          td #{item.id}
           td #{item.username}
           td #{item.password}
-          td #{item.level}
+          td #{item.admin}
           td #{item.email}
           td #{item.age}
-          td #{item.q1}
-          td #{item.q2}
-          td #{item.q3}
+          td #{item.answerOne}
+          td #{item.answerTwo}
+          td #{item.answerThree}
           td
             a(href='/delete/' + item.id) Delete Account
           td
