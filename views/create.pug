@@ -16,12 +16,33 @@ block content
           input(type='text', name='email')
         p #{questions.questionOne}
           br
-          input(type='text', name='animal')
+          input(type='radio', id='oneA', class='one')
+          p #{questions.oneAnswers[0]}
+          input(type='radio', id='oneB', class='one')
+          p #{questions.oneAnswers[1]}
+          input(type='radio', id='oneC', class='one')
+          p #{questions.oneAnswers[2]}
+          input(type='radio', id='oneD', class='one')
+          p #{questions.oneAnswers[3]}
         p #{questions.questionTwo}
           br
-          input(type='text', name='color')
+          input(type='radio', id='twoA', class='two')
+          p #{questions.twoAnswers[0]}
+          input(type='radio', id='twoB', class='two')
+          p #{questions.twoAnswers[1]}
+          input(type='radio', id='twoC', class='two')
+          p #{questions.twoAnswers[2]}
+          input(type='radio', id='twoD', class='two')
+          p #{questions.twoAnswers[3]}
         p #{questions.questionThree}
           br
-          input(type='text', name='food')
+          input(type='radio', id='threeA', class='three')
+          p #{questions.twoAnswers[0]}
+          input(type='radio', id='threeB', class='three')
+          p #{questions.twoAnswers[1]}
+          input(type='radio', id='threeC', class='three')
+          p #{questions.twoAnswers[2]}
+          input(type='radio', id='threeD', class='three')
+          p #{questions.twoAnswers[3]}
         p
           input(type='submit', value='Create User')
