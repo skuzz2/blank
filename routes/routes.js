@@ -21,16 +21,6 @@ var userSchema = mongoose.Schema({
 
 var User = mongoose.model('User_Collection_Two', userSchema);
 
-/*
-* *
-* *
-* *
-* *
-* *
-* TO DO: ANSWERS IMPLEMENTATION
-*
-* */
-
 exports.index = function(req, res) {
   if(req.body.username === 'admin'){
     User.findOne({'username': 'admin'}, 'password', function (err, User) {
