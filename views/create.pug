@@ -17,23 +17,23 @@ block content
         p #{questions.questionOne}
           br
           select(id='questionOne', class='questions')
-            option(value='A', id='oneA', class='oneAnswers')
-            option(value='B', id='oneB', class='oneAnswers')
-            option(value='C', id='oneC', class='oneAnswers')
-            option(value='D', id='oneD', class='oneAnswers')
+            option(id='oneA', class='oneAnswers') #{questions.oneAnswers[0]}
+            option(id='oneB', class='oneAnswers') #{questions.oneAnswers[1]}
+            option(id='oneC', class='oneAnswers') #{questions.oneAnswers[2]}
+            option(id='oneD', class='oneAnswers') #{questions.oneAnswers[3]}
         p #{questions.questionTwo}
           br
           select(id='questionTwo', class='questions')
-            option(value='A', id='twoA', class='twoAnswers')
-            option(value='B', id='twoB', class='twoAnswers')
-            option(value='C', id='twoC', class='twoAnswers')
-            option(value='D', id='twoD', class='twoAnswers')
+            option(id='twoA', class='twoAnswers') #{questions.twoAnswers[0]}
+            option(id='twoB', class='twoAnswers') #{questions.twoAnswers[1]}
+            option(id='twoC', class='twoAnswers') #{questions.twoAnswers[2]}
+            option(id='twoD', class='twoAnswers') #{questions.twoAnswers[3]}
         p #{questions.questionThree}
           br
           select(id='questionThree', class='questions')
-            option(value='A', id='threeA', class='threeAnswers')
-            option(value='B', id='threeB', class='threeAnswers')
-            option(value='C', id='threeC', class='threeAnswers')
-            option(value='D', id='threeD', class='threeAnswers')
+            option(id='threeA', class='threeAnswers') #{questions.threeAnswers[0]}
+            option(id='threeB', class='threeAnswers') #{questions.threeAnswers[1]}
+            option(id='threeC', class='threeAnswers') #{questions.threeAnswers[2]}
+            option(id='threeD', class='threeAnswers') #{questions.threeAnswers[3]}
         p
           input(type='submit', value='Create User')
