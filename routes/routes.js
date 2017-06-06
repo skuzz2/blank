@@ -98,3 +98,12 @@ exports.delete = function (req, res) {
         res.redirect('/admin');
     });
 };
+
+exports.user = function (req, res) {
+  User.findById(req.params.id, function (err, person) {
+    if (err) return console.error(err);
+    res.render('details', {
+      person: person
+    });
+  });
+};

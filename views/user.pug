@@ -2,4 +2,27 @@ extends layout
 
 block content
   p Hello User
-  script(src="user.js")
+  
+  tr(id='tableHeader')
+      th Id
+      th Username
+      th Password
+      th User Level
+      th Email
+      th Age
+      th Question #1
+      th Question #2
+      th Question #3
+      th 
+        tr
+          td #{item.id}
+          td #{item.username}
+          td #{item.password}
+          td #{item.level}
+          td #{item.email}
+          td #{item.age}
+          td #{item.q1}
+          td #{item.q2}
+          td #{item.q3}
+          td
+            a(href='/delete/' + item.id) Delete

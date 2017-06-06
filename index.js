@@ -90,6 +90,7 @@ app.get('/admin', checkAuth, route.admin);
 app.get('/delete/:id', route.delete);
 app.get('/edit/:id', route.edit);
 app.post('/edit/:id', route.editUser);
+app.get('/user/:id', route.user);
 
 
 app.get('/user', checkAuth, function (req, res) {
