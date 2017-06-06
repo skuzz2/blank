@@ -41,9 +41,8 @@ exports.index = function(req, res) {
         // logout here so if the user was logged in before, it will log them out if user/pass wrong 
         res.redirect('/logout'); 
       }
-  })
-}
-
+  });
+};
 
 exports.admin = function (req, res) {
     User.find(function (err, user) {
