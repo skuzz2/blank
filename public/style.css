@@ -100,3 +100,13 @@ a:active {
 hr {
     border:1px solid #000;
 }
+
+#createForm {
+    margin-left: 35%;
+    margin-right: 38%;
+    padding-left: 6%;
+    padding-right: 6%;
+    border: 1px solid #000;
+    border-radius: 2%;
+    background-color: #ececec;
+}
