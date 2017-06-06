@@ -78,13 +78,6 @@ app.get('/admin', checkAuth, route.admin);
 app.get('/delete/:id', route.delete);
 app.get('/edit/:id', route.edit);
 app.post('/edit/:id', route.editUser);
-app.get('/user/:id', route.user);
-
-
-app.get('/user', function (req, res) {
-    user = req.session.user.username;
-    res.cookie('user', user).send('cookie set');
-    res.cookie('date', date).send('cookie set');
-});
+app.get('/user', route.user);
 
 app.listen(3000);

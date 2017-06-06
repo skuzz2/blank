@@ -127,10 +127,10 @@ exports.delete = function (req, res) {
 };
 
 exports.user = function (req, res) {
-  User.findById(req.params.id, function (err, person) {
-    if (err) return console.error(err);
-    res.render('details', {
-      person: person
-    });
-  });
+   // User.findById(req.params.id, function (err, user) {
+   //     if (err) return console.error(err);
+        res.render('user');
+   //     person: user
+   //   });
+   // });
 };

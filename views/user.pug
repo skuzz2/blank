@@ -1,8 +1,9 @@
 extends layout
 
 block content
-  p Hello #{item.username}
-  
+  p Hello world
+    #{person.username}
+
   tr(id='tableHeader')
       th Id
       th Username
@@ -13,17 +14,13 @@ block content
       th Question #1
       th Question #2
       th Question #3
-      th 
+      th
         tr
-          td #{item.username}
-          td #{item.password}
-          td #{item.admin}
-          td #{item.email}
-          td #{item.age}
-          td #{item.answerOne}
-          td #{item.answerTwo}
-          td #{item.answerThree}
-          td
-            a(href='/delete/' + item.id) Delete Account
-          td
-            a(href='/edit/' + item.id) Edit Info
+          td #{person.username}
+          td #{person.password}
+          td #{person.admin}
+          td #{person.email}
+          td #{person.age}
+          td #{person.answerOne}
+          td #{person.answerTwo}
+          td #{person.answerThree}
