@@ -1,19 +1,19 @@
 extends layout
 block content
-  form(id='form', method='post', action='/edit')
+  form(id='form', method='post', action='/edit' + person.id)
         p Username:&nbsp;
           br
-          input(type='text', name='username')
+          input(type='text', name='username', value=person.username)
         p Password:&nbsp;
           br
-          input(type='password', name='password')
+          input(type='password', name='password', value=person.password)
         p Age:&nbsp;
           br
-          input(type='text', name='age')
+          input(type='text', name='age', value=person.age)
         p Email:&nbsp;
           br
-          input(type='text', name='email')
-        p #{questions.questionOne}
+          input(type='text', name='email', value=person.email)
+        p Favorite Animal:&nbsp;
           br
           select(id='answerOne', class='questions', name='answerOne')
             option(id='oneA', class='oneAnswers') #{questions.oneAnswers[0]}
