@@ -116,19 +116,25 @@ exports.delete = function (req, res) {
 };
 
 exports.user = function (req, res) {
-//    User.findOne({'username': req.session.user.username}, function (err, user) {
-//         if (err) return console.error(err);
-//         res.render('user', {
-//             title: 'User Info',
-//             people: user
-//         });
-//     });
-
-    User.findById(req.params.id, function (err, user) {
-        if (err) return console.error(err);
-        res.render('user', {
-            title: 'User Info',
-            person: user
-        });
-    });
+  User.findOne({'username': req.session.user.username}, function (err, User) {
+      if (err) return handleError(err);
+      res.render('user', {
+        username: User.username,
+        password: User.password,
+        age: User.age,
+        email: User.email,
+        answerOne: User.answerOne,
+        answerTwo: User.answerTwo,
+        answerThree: User.answerThree
+      });
+  });
 };
+
+//    User.findById(req.params.id, function (err, user) {
+//        if (err) return console.error(err);
+//        res.render('user', {
+//            title: 'User Info',
+//            person: user
+//        });
+//    });
+//};
