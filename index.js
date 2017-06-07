@@ -3,11 +3,10 @@ var express = require('express'),
     path = require('path'),
     route = require('./routes/routes.js'),
     bodyParser = require('body-parser'),
-    bcrypt = require('bcrypt-nodejs'), 
+    bcrypt = require('bcrypt-nodejs'),
     expressSession = require('express-session'),
     hash,
     user,
-    date = Date(),
     question_data = require('./questions.json'),
     allData = route.allData;
 
