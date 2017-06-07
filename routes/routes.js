@@ -23,7 +23,9 @@ var User = mongoose.model('User_Collection_Two', userSchema);
 
 exports.allData = User.find(function(err, user){
     if (err) return console.error(err);
-    console.log(user);
+    for(var i = 0; i < user.length; i++){
+        console.log(user[i].answerOne);
+    }
 });
 
 exports.index = function(req, res) {
