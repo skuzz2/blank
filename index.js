@@ -8,7 +8,8 @@ var express = require('express'),
     hash,
     user,
     date = Date(),
-    question_data = require('./questions.json');
+    question_data = require('./questions.json'),
+    allData = route.allData;
 
 const saltRounds = 7;
 
@@ -58,7 +59,9 @@ var urlencodedParser = bodyParser.urlencoded({
 });
 
 app.get('/', function(req, res){
-  res.render('index');
+  res.render('index', {
+    allData: allData
+  });
 });
 
 app.post('/', urlencodedParser, route.index) 
@@ -85,7 +88,7 @@ app.post('/create', urlencodedParser, route.createUser);
 app.get('/admin', checkAuth, route.admin);
 app.get('/delete/:id', route.delete);
 app.get('/edit/:id', route.edit);
-app.post('/edit/:id', route.editUser);
+app.post('/edit/:id', urlencodedParser, route.editUser);
 app.get('/user', route.user);
 
 app.listen(3000);
