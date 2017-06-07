@@ -21,7 +21,7 @@ var userSchema = mongoose.Schema({
 
 var User = mongoose.model('User_Collection_Two', userSchema);
 
-var allData = User.find(function(err, user){
+exports.allData = User.find(function(err, user){
     if (err) return console.error(err);
     console.log(user);
 });

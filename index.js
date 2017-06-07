@@ -8,7 +8,8 @@ var express = require('express'),
     hash,
     user,
     date = Date(),
-    question_data = require('./questions.json');
+    question_data = require('./questions.json'),
+    allData = route.allData;
 
 const saltRounds = 7;
 
@@ -50,7 +51,9 @@ var urlencodedParser = bodyParser.urlencoded({
 });
 
 app.get('/', function(req, res){
-  res.render('index');
+  res.render('index', {
+    allData: allData
+  });
 });
 
 app.post('/', urlencodedParser, route.index) 
