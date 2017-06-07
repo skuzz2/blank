@@ -48,12 +48,70 @@ var userSchema = mongoose.Schema({
 
 var User = mongoose.model('User_Collection_Two', userSchema);
 
-exports.allData = User.find(function(err, user){
-    if (err) return console.error(err);
-    for(var i = 0; i < user.length; i++){
-        console.log(user[i].answerOne);
-    }
-});
+var allData = [0,0,0,0,0,0,0,0,0,0,0,0,0];
+
+function resetData(){
+    allData = [
+        0,0,0,0,0,0,0,0,0,0,0,0,0
+    ];
+}
+
+exports.getIndex = function(req, res){
+    resetData();
+    User.find(function(err, user){
+        allData[12] = user.length;
+        if (err) return console.error(err);
+        for(var x = 0; x < user.length; x++){
+            console.log(user[x].answerOne);
+            switch(user[x].answerOne){
+                case "Panda":
+                    allData[0] += 1;
+                    break;
+                case "Ferret":
+                    allData[1] += 1;
+                    break;
+                case "Crocodile":
+                    allData[2] += 1;
+                    break;
+                case "Cat":
+                    allData[3] += 1;
+                    break;
+            }
+            switch(user[x].answerTwo){
+                case "Red":
+                    allData[4] += 1;
+                    break;
+                case "Purple":
+                    allData[5] += 1;
+                    break;
+                case "Chartreuse":
+                    allData[6] += 1;
+                    break;
+                case "Orange":
+                    allData[7] += 1;
+                    break;
+            }
+            switch(user[x].answerThree){
+                case "Spaghetti":
+                    allData[8] += 1;
+                    break;
+                case "Cheeseburger":
+                    allData[9] += 1;
+                    break;
+                case "Tacos":
+                    allData[10] += 1;
+                    break;
+                case "Ice Cream":
+                    allData[11] += 1;
+                    break;
+            }
+        }
+        console.log(allData);
+        res.render('index', {
+            allData : allData
+        });
+    });
+};
 
 function adminLogin(req, res, isValid){
     if(isValid){

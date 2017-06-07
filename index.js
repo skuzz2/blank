@@ -36,12 +36,6 @@ var urlencodedParser = bodyParser.urlencoded({
     extended: true
 });
 
-app.get('/', function(req, res){
-  res.render('index', {
-    allData: allData
-  });
-});
-
 app.post('/', urlencodedParser, route.index) 
 app.get('/logout', function (req, res) {
     req.session.destroy(function(err){
@@ -62,6 +56,7 @@ app.get('/create', function(req, res){
     });
 });
 
+app.get('/', route.getIndex);
 app.post('/create', urlencodedParser, route.createUser);
 app.get('/admin', checkAuth, route.admin);
 app.get('/delete/:id', route.delete);
