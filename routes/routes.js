@@ -92,8 +92,7 @@ exports.edit = function (req, res) {
         if (err) return console.error(err);
         res.render('edit', {
             title: 'Edit Person',
-            person: user,
-            questions: question_data
+            person: user
         });
     });
 };
@@ -103,12 +102,8 @@ exports.editUser = function (req, res) {
         if (err) return console.error(err);        
         user.username = req.body.username;
         user.password = req.body.password;
-        user.admin = req.body.admin;
         user.email = req.body.email;
         user.age = req.body.age;
-        answerOne = req.body.answerOne;
-        answerTwo = req.body.answerTwo;
-        answerThree = req.body.answerThree;
         user.save(function (err, user) {
             if (err) return console.error(err);
             console.log(req.body.username + ' updated');

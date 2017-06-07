@@ -77,7 +77,7 @@ app.post('/create', urlencodedParser, route.createUser);
 app.get('/admin', checkAuth, route.admin);
 app.get('/delete/:id', route.delete);
 app.get('/edit/:id', route.edit);
-app.post('/edit/:id', route.editUser);
+app.post('/edit/:id', urlencodedParser, route.editUser);
 app.get('/user', route.user);
 
 app.listen(3000);
