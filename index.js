@@ -35,7 +35,7 @@ function comparePass(){
             // correct password - login
         }else{
             // incorrect password - error/retry 
-            // it seems to work with out this code so maybe just use this to store and look for the correct password thats hashed
+            // it seems to work without this code so maybe just use this to store and look for the correct password thats hashed
         }
     });
 }
