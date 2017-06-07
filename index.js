@@ -22,14 +22,22 @@ var checkAuth = function (req, res, next) {
     }
 };
 
-function toHash(my_str) {
-    bcrypt.hash(my_str, null, null, function (err, hash) {
-        outputhash(hash);
+function encodePass(){
+    bcrypt.hash(password, 10, function(err, hash) {
+        // Store hash in mongo as password 
     });
 }
 
-function outputHash(my_str){
-    console.log(my_str);
+function comparePass(){
+    // Load password hash from mongo
+    bcrypt.compare(inputedPassword, hash, function(err, res) {
+        if(res){
+            // correct password - login
+        }else{
+            // incorrect password - error/retry 
+            // it seems to work with out this code so maybe just use this to store and look for the correct password thats hashed
+        }
+    });
 }
 
 //CONFUSED ON IMPLEMENTATION
