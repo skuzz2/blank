@@ -6,6 +6,8 @@ var canvas_three = document.getElementById('my_canvas3');
 var ctx_three = canvas_three.getContext('2d');
 
 console.log(question_one_data);
+console.log(question_two_data);
+console.log(question_three_data);
 
 function drawGraph(data, color, context){
     context.strokeStyle = color;
