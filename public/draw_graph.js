@@ -5,9 +5,7 @@ var ctx_two = canvas_two.getContext('2d');
 var canvas_three = document.getElementById('my_canvas3');
 var ctx_three = canvas_three.getContext('2d');
 
-console.log(question_one_data);
-console.log(question_two_data);
-console.log(question_three_data);
+console.log(allData);
 
 function drawGraph(data, color, context){
     context.strokeStyle = color;
@@ -18,6 +16,6 @@ function drawGraph(data, color, context){
     context.stroke();
 }
 
-drawGraph(question_one_data, '#0f0', ctx_one);
-drawGraph(question_two_data, '#0f0', ctx_two);
-drawGraph(question_three_data, '#0f0', ctx_three);
+// drawGraph(question_one_data, '#0f0', ctx_one);
+// drawGraph(question_two_data, '#0f0', ctx_two);
+// drawGraph(question_three_data, '#0f0', ctx_three);
