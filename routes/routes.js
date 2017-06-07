@@ -136,12 +136,3 @@ exports.user = function (req, res) {
       });
   });
 };
-
-//    User.findById(req.params.id, function (err, user) {
-//        if (err) return console.error(err);
-//        res.render('user', {
-//            title: 'User Info',
-//            person: user
-//        });
-//    });
-//};
