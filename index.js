@@ -3,14 +3,11 @@ var express = require('express'),
     path = require('path'),
     route = require('./routes/routes.js'),
     bodyParser = require('body-parser'),
-    bcrypt = require('bcrypt-nodejs'),
     expressSession = require('express-session'),
     hash,
     user,
     question_data = require('./questions.json'),
     allData = route.allData;
-
-const saltRounds = 7;
 
 var app = express();
 
@@ -21,24 +18,6 @@ var checkAuth = function (req, res, next) {
         res.redirect('/');
     }
 };
-
-function encodePass(){
-    bcrypt.hash(password, 10, function(err, hash) {
-        // Store hash in mongo as password 
-    });
-}
-
-function comparePass(){
-    // Load password hash from mongo
-    bcrypt.compare(inputedPassword, hash, function(err, res) {
-        if(res){
-            // correct password - login
-        }else{
-            // incorrect password - error/retry 
-            // it seems to work without this code so maybe just use this to store and look for the correct password thats hashed
-        }
-    });
-}
 
 //CONFUSED ON IMPLEMENTATION
 //HOW TO PASS IN PASSWORD
