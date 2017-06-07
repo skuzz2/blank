@@ -1,12 +1,39 @@
 var mongoose = require('mongoose');
+var bcrypt = require('bcrypt-nodejs');
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://localhost/data');
 
 var mdb = mongoose.connection;
 mdb.on('error', console.error.bind(console, 'connection error:'));
-mdb.once('open', function (callback) {
+mdb.once('open', function (callback) {});
 
-});
+function comparePass(inputedPassword, hash, req, appRes, isAdmin){
+    bcrypt.compare(inputedPassword, hash, function(err, res) {
+        console.log(res);
+        console.log('Done comparing');
+        if(isAdmin){
+            adminLogin(req, appRes, res);
+        }else{
+            userLogin(req, appRes, res);
+        }
+        
+    });
+}
+
+function encryptPass(password, user){
+    var hash;
+    bcrypt.hash(password, bcrypt.genSaltSync(), null, function(err, hash) {
+        done(hash, user);
+    });
+}
+
+function done(hash, user){
+    user.password = hash;
+    user.save(function (err, user) {
+        if (err) return console.error(err);
+        console.log(user.username + ' added');
+    });
+}
 
 var userSchema = mongoose.Schema({
     username: String,
@@ -28,28 +55,40 @@ exports.allData = User.find(function(err, user){
     }
 });
 
+function adminLogin(req, res, isValid){
+    if(isValid){
+      console.log("Admin login thingy");
+      req.session.user = { isAuthenticated: true, username: req.body.username}; 
+      res.redirect('/admin');
+    } else { 
+      console.log('Logout');
+      // logout here so if the user was logged in before, it will log them out if user/pass wrong 
+      res.redirect('/logout'); 
+    }
+}
+
+function userLogin(req, res, isValid){
+    if(isValid){
+      console.log("User login thingy");
+      req.session.user = { isAuthenticated: false, username: req.body.username}; 
+      res.redirect('/user');
+    } else { 
+      console.log('Logout');
+      // logout here so if the user was logged in before, it will log them out if user/pass wrong 
+      res.redirect('/logout'); 
+    }
+}
+
 exports.index = function(req, res) {
   if(req.body.username === 'admin'){
     User.findOne({'username': 'admin'}, 'password', function (err, User) {
       if (err) return handleError(err);
-        if(req.body.password === User.password){
-          req.session.user = { isAuthenticated: true, username: req.body.username}; 
-          res.redirect('/admin');
-        } else { 
-          // logout here so if the user was logged in before, it will log them out if user/pass wrong 
-          res.redirect('/logout'); 
-        }
+        comparePass(req.body.password, User.password, req, res, true);
       });
   } else {
      User.findOne({'username': req.body.username}, 'password', function (err, User) {
       if (err) return handleError(err);
-        if(req.body.password === User.password){
-          req.session.user = { isAuthenticated: false, username: req.body.username}; 
-          res.redirect('/user');
-        } else { 
-          // logout here so if the user was logged in before, it will log them out if user/pass wrong 
-          res.redirect('/logout'); 
-        }
+        comparePass(req.body.password, User.password, req, res, false);  
       });   
   }
 };
@@ -75,9 +114,10 @@ exports.createUser = function (req, res) {
     if(req.body.username == 'admin'){
         level = 'admin';
     }
+    console.log('Intial user creation');
     var user = new User({
         username: req.body.username,
-        password: req.body.password,
+        password: '',
         admin: level,
         email: req.body.email,
         age: req.body.age,
@@ -85,11 +125,7 @@ exports.createUser = function (req, res) {
         answerTwo: req.body.answerTwo,
         answerThree: req.body.answerThree
     });
-    console.log(user.answerOne);
-    user.save(function (err, user) {
-        if (err) return console.error(err);
-        console.log(req.body.username + ' added');
-    });
+    encryptPass(req.body.password, user);
     res.redirect('/');
 };
 
